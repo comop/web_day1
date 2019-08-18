@@ -1,0 +1,123 @@
+@import "reset";
+
+$font_yugo: "Yu Goshic";
+
+body {
+ 	font-family:"Yu Goshic","游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+	background-image: url(../img/mainvisual.png);
+	background-repeat: none;
+}
+
+header {
+	width: 100%;
+	background-color: #3f51b5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+	opacity: .8;
+
+	img {
+		margin-left: 10%
+	}
+}
+
+nav {
+	width: 344px;
+	margin-right: 10%;
+
+	ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	li {
+		font-family: 'Yu Gothic';
+
+	}
+
+	a {
+		color: #fff;
+		font-size: 16px;
+		text-decoration: none;
+
+		&:hover {
+			border-bottom: 3px solid #E81919;
+		}
+	}
+}
+
+main {
+	height: auto;
+	.top {
+		text-align: center;
+
+		h2 {
+			padding-top: 149px;
+			font-size: 68px;
+		}
+		h3 {
+			font-size: 38px;
+			margin-top: 12px;
+		}
+	}
+}
+
+.bottom {
+	p {
+		margin-top: 82px;
+		color: #fff;
+		font-size: 38px;
+		background-color: #3F51B5;
+		padding: 17px 81px;
+		border-radius: 12px;
+		display: inline-block;
+		margin-bottom: 155px;
+	}
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #EFEFEF;
+
+	h4 {
+		font-size: 60px;
+		margin-top: 68px;
+		margin: 0 auto;
+	}
+}
+
+.card_holder {
+	width: 1086px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+
+  article {
+  	width: 342px;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+  	.image {
+  		width: 310px;
+  		height: 161px;
+  		background-color: #DDDDDD;
+  		margin: 16px;
+  	}
+
+  	.tittle {
+  		margin-top: 26px;
+  		margin-bottom: 20px;
+  	}
+
+  	.contente {
+  		margin-bottom: 28px;
+  	}
+  }
+}
+
+
+
+
+
+
